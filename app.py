@@ -1,9 +1,3 @@
-!pip install -q streamlit
-
-!npm install localtunnel
-
-%%writefile app.py 
-
 import streamlit as st
 
 st.title("Welcome to My First Streamlit App")
